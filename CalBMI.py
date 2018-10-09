@@ -7,4 +7,4 @@ if bmi < 18.5:
     who, nat = "偏瘦", "偏瘦"
 elif 18.5 <= bmi < 24:
     who, nat = "正常", "正常"
-print("BMI指标为：国际{},国内{}".format(who, nat))
+print("BMI指标为：国际{0},国内{1}".format(who, nat))
